@@ -15,4 +15,9 @@ public class JenkinsTestController {
         return "Welcome to Jenkins Test";
     }
 
+    @GetMapping("githubChangeTrigger")
+    public String githubChangeTrigger() {
+        return "Welcome again to Jenkins Test";
+    }
+
 }
